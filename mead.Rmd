@@ -1,0 +1,28 @@
+---
+title: "Mead and Fermentation"
+author: "Christopher L. Smoot"
+date: "2023-03-17"
+output: pdf_document
+---
+
+```{r}
+sugar <- 
+aa <-
+yeast_growth <- sugar + aa
+```
+
+wine= grape 20% sugar 80% water 12% alc
+
+
+1/5 honey and 4/5 water is the mead alc contect
+
+pastured 60 celsus 15 minutes
+yeast is a single cell eukrote doubles every 2 1/2 hours
+
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for 
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
