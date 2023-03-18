@@ -20,13 +20,15 @@ alc <- sugar_percent * mult
 print(alc)
 ```
 
+doubles every 2 1/2 hours
 
-1/5 honey and 4/5 water is the mead alc contect
-
+```{r}
+yeast_start <- 
+hours <- 
+  growth_mult <- (hours * yeast_start)/2.5
+print(growth_mult)
+```
 pastured 60 celsus 15 minutes
-yeast is a single cell eukrote doubles every 2 1/2 hours
-
-
 
 ## R Markdown
 
