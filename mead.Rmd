@@ -13,6 +13,13 @@ yeast_growth <- sugar + aa
 
 wine= grape 20% sugar 80% water 12% alc
 
+```{r}
+sugar_percent <- 40
+  mult <- .6
+alc <- sugar_percent * mult
+print(alc)
+```
+
 
 1/5 honey and 4/5 water is the mead alc contect
 
