@@ -1,24 +1,61 @@
 ---
 title: "Mead and Fermentation"
-author: "Christopher L. Smoot"
+author: "Christopher L. Smoot" & ## Co-Author "Bing AI Chat-bot"
 date: "2023-03-17"
 output: pdf_document
 ---
 
-```{r}
-sugar <- 
-aa <-
-yeast_growth <- sugar + aa
-```
+Hypothesis: To reduce the  cost of Honey associated with the production of mead and reduce the dependency on honey for materials, and encouraging the potential growth new industry in Florida agriculture a percentage of the honey with pollen from the SAME colony can be replaced keeping the alcohol content > 5.3% while and < 14% and most importantly maintaining the ingredient requirement given by the TTA protected definition of "Mead."
 
-wine= grape 20% sugar 80% water 12% alc
+"The sugar content of pollen from the north Florida region may vary depending on the plant species and environmental conditions, but according to one study, it was about 421 grams per kilogram on average, which is equivalent to 42.1 percent. The sugar content of honey from the same region may also vary depending on the source of nectar and processing methods, but according to one source¹, it was about 17 grams per tablespoon (21 grams), which is equivalent to 80.9 percent. The main sugars in both pollen and honey are fructose and glucose¹ .
+
+Source: Conversation with Bing, 3/19/2023(1) Honey Nutrition Facts and Health Benefits - Verywell Fit. https://www.verywellfit.com/honey-nutrition-facts-and-calories-4164274 Accessed 3/19/2023.
+(2) A Taste of Natural North Florida: Choosing the Perfect Local Honey .... https://www.naturalnorthflorida.com/blog/a-taste-of-natural-north-florida-choosing-the-perfect-local-honey/ Accessed 3/19/2023.
+(3) Honey nutrition facts and analysis.. https://www.nutritionvalue.org/Honey_nutritional_value.html Accessed 3/19/2023.
+(4) The Cost Of Honey - In 2023 - The Pricer. https://www.thepricer.org/the-cost-of-honey/ Accessed 3/19/2023.
+(5) Honey vs. sugar: Differences, benefits, and disadvantages. https://www.medicalnewstoday.com/articles/317728 Accessed 3/19/2023.
 
 ```{r}
-sugar_percent <- 40
+##Pollen and Honey Weight is based on equal to 1 gram to 4 grams of water 
+## 1 US Liquid Gallon Water = 3785.41 grams
+## 1 US Pound Honey = 453.5 grams 
+## X = weight of pollen added by gram
+X <- 
+honey_pollen_mult <- 421/809
+pollen_weight <- x * honey_pollen_mult
+honey_weight <- (453.6*3)-pollen_weight
+  combined_sugars <- c(pollen_weight + honey_weight )
+  gallons_water< - ((combined_sugars * 4)/3785.41)5
+
+  sugar_percent_all <- c(pollen_weight + )
   mult <- .6
 alc <- sugar_percent * mult
 print(alc)
 ```
+Experiment 
+Control 
+2 seperately mantioned 6 Gallon Carboys with 3 pounds honey using 2 brands of Saccharomyces cerevisiae yeast 
+  1.  a. Wyeast ACT4184
+      b. Lalvin D47
+  2. 3 lbs North Florida Honey
+  3. 4 Gallons Distilled Water
+Experiment
+2 seperately mantioned 6 Gallon Carboys with 3 pounds honey using 2 brands of Saccharomyces cerevisiae yeast 
+  1.  a. Wyeast ACT4184
+      b. Lalvin D47
+  2. 3 lbs North Florida Honey minus adjusted for pollen above
+  3. 4 Gallons Distilled Water
+  4. Pollen from North Florida region
+  
+Test ALC to verify they are equal and provide a blind taste test to see if taste profile has been changed. 
+
+
+
+
+
+
+
+
 
 doubles every 2 1/2 hours
 
@@ -29,6 +66,15 @@ hours <-
 print(growth_mult)
 ```
 pastured 60 celsus 15 minutes
+
+
+```{r}
+sugar <- 
+aa <-
+yeast_growth <- sugar + aa
+```
+
+wine= grape 20% sugar 80% water 12% alc
 
 ## R Markdown
 
