@@ -20,17 +20,23 @@ Source: Conversation with Bing, 3/19/2023(1) Honey Nutrition Facts and Health Be
 ## 1 US Liquid Gallon Water = 3785.41 grams
 ## 1 US Pound Honey = 453.5 grams 
 ## X = weight of pollen added by gram
-X <- 
-honey_pollen_mult <- 421/809
-pollen_weight <- x * honey_pollen_mult
-honey_weight <- (453.6*3)-pollen_weight
-  combined_sugars <- c(pollen_weight + honey_weight )
-  gallons_water< - ((combined_sugars * 4)/3785.41)5
-
-  sugar_percent_all <- c(pollen_weight + )
+                                                    x <- 400
+  honey_pollen_mult <- 421/809
+  pollen_weight <- x * honey_pollen_mult
+  honey_weight <- (453.6*3)-pollen_weight
+  honey_weight_pounds <- honey_weight/453.6
+print(honey_weight)
+print(honey_weight_pounds)
+  combined_sugars <- pollen_weight + honey_weight 
+  water <- combined_sugars * 4
+  gallons_water <- water / 3785.41 
+  sugar_percent_all <- combined_sugars / gallons_water
+  decrease_percent <- honey_weight / (453.6*3)
   mult <- .6
-alc <- sugar_percent * mult
+  alc <- sugar_percent * mult
 print(alc)
+print(100 - (decrease_percent * 100))
+
 ```
 Experiment 
 Control 
@@ -45,7 +51,7 @@ Experiment
       b. Lalvin D47
   2. 3 lbs North Florida Honey minus adjusted for pollen above
   3. 4 Gallons Distilled Water
-  4. Pollen from North Florida region
+  4. 100G Pollen from North Florida region ADDED 0hr, 24hr, 48hr, and 72hr
   
 Test ALC to verify they are equal and provide a blind taste test to see if taste profile has been changed. 
 
